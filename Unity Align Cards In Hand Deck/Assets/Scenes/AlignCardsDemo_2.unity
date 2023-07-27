@@ -482,27 +482,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1128141909}
-  - {fileID: 515905363}
-  - {fileID: 898320668}
-  - {fileID: 305758844}
-  - {fileID: 1073503214}
-  - {fileID: 505850065}
-  - {fileID: 389420140}
-  - {fileID: 1595821792}
-  - {fileID: 86285299}
-  - {fileID: 446850923}
-  - {fileID: 888111591}
-  - {fileID: 281630013}
-  - {fileID: 1579689531}
-  - {fileID: 1384088451}
-  - {fileID: 333900952}
-  - {fileID: 1427335045}
-  - {fileID: 1471904788}
-  - {fileID: 2012661197}
-  - {fileID: 1533258244}
   - {fileID: 28341068}
+  - {fileID: 86285299}
+  - {fileID: 1384088451}
+  - {fileID: 2012661197}
+  - {fileID: 515905363}
+  - {fileID: 1533258244}
+  - {fileID: 333900952}
+  - {fileID: 1128141909}
   - {fileID: 1962578668}
+  - {fileID: 1471904788}
+  - {fileID: 505850065}
+  - {fileID: 1579689531}
+  - {fileID: 888111591}
+  - {fileID: 389420140}
+  - {fileID: 446850923}
+  - {fileID: 305758844}
+  - {fileID: 281630013}
+  - {fileID: 1427335045}
+  - {fileID: 1595821792}
+  - {fileID: 898320668}
+  - {fileID: 1073503214}
   m_Father: {fileID: 961723760}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -655,64 +655,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &540434286
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 540434288}
-  - component: {fileID: 540434287}
-  m_Layer: 0
-  m_Name: '[Hand] Left'
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &540434287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540434286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52340ec4c0e301344a1d7597ed2aaab3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  automaticOrganizeHand: 1
-  cards: []
-  horizontalRadius: 3
-  maxHorizontalRadius: 3
-  horizontalRadiusGapModifier: 0.5
-  verticalRadius: 10
-  maxVerticalRadius: 50
-  verticalRadiusGapModifier: 0.5
-  startAngle: 90
-  endAngle: 270
-  angleFocusOffset: {x: -5, y: 0, z: 0}
-  rotationModifier: -90
-  debugUpdate: 0
-  debugGizmo: 0
---- !u!4 &540434288
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540434286}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &613823728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -854,6 +796,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663634783}
   m_CullTransparentMesh: 1
+--- !u!1 &800752727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 800752729}
+  - component: {fileID: 800752728}
+  m_Layer: 0
+  m_Name: '[Hand] '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &800752728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800752727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52340ec4c0e301344a1d7597ed2aaab3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  automaticOrganizeHand: 0
+  cards: []
+  horizontalRadius: 10
+  maxHorizontalRadius: 50
+  horizontalRadiusGapModifier: 0.5
+  verticalRadius: 3
+  maxVerticalRadius: 3
+  verticalRadiusGapModifier: 0.5
+  startAngle: 0
+  endAngle: 180
+  angleFocusOffset: {x: 0, y: 5, z: 0}
+  rotationModifier: -90
+  debugUpdate: 1
+  debugGizmo: 1
+--- !u!4 &800752729
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800752727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.87, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &829487174
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hand1: {fileID: 1057792175}
-  hand2: {fileID: 540434287}
+  hand2: {fileID: 800752728}
   cardPrefab: {fileID: 1611424874015378167, guid: 671066d07925a9c4ea7f523b808ecb82, type: 3}
   addCardButton1: {fileID: 1511261034}
   addCardButton2: {fileID: 2104303304}
@@ -1108,7 +1108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961723758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: -6.82, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1127,9 +1127,9 @@ GameObject:
   - component: {fileID: 1057792176}
   - component: {fileID: 1057792175}
   m_Layer: 0
-  m_Name: '[Hand] Bottom'
+  m_Name: '[Hand]'
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1145,7 +1145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52340ec4c0e301344a1d7597ed2aaab3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  automaticOrganizeHand: 1
+  automaticOrganizeHand: 0
   cards: []
   horizontalRadius: 10
   maxHorizontalRadius: 50
@@ -1157,8 +1157,8 @@ MonoBehaviour:
   endAngle: 180
   angleFocusOffset: {x: 0, y: 5, z: 0}
   rotationModifier: -90
-  debugUpdate: 0
-  debugGizmo: 0
+  debugUpdate: 1
+  debugGizmo: 1
 --- !u!4 &1057792176
 Transform:
   m_ObjectHideFlags: 0
@@ -1167,7 +1167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1057792174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.48, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2222,7 +2222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2104303303
 RectTransform:
   m_ObjectHideFlags: 0
